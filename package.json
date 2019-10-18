@@ -1,0 +1,20 @@
+{
+  "name": "@kolgotko/ngx-i18n-ts-common",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "I.Bykov <con29rus@live.ru>",
+  "license": "MIT",
+  "scripts": {
+    "prepare": "yarn build",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.144",
+    "@types/uuid": "^3.4.5",
+    "@types/xml-js": "^1.0.0",
+    "lodash": "^4.17.15",
+    "typescript": "^3.6.4",
+    "uuid": "^3.3.3",
+    "xml-js": "^1.6.11"
+  }
+}
