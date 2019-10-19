@@ -1,0 +1,12 @@
+{
+  "extends": "../../tsconfig-base.json",
+  "compilerOptions": {
+    "declarationDir": "../../common",
+    "outDir": "../../common",
+    "module": "commonjs",
+    "target": "es5"
+  },
+  "include": [
+    "./"
+  ]
+}

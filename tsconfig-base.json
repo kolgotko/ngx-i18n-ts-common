@@ -1,16 +1,14 @@
 {
   "compilerOptions": {
+    "declaration": true,
     "moduleResolution": "node",
-    "module": "commonjs",
-    "target": "es6",
     "noImplicitAny": false,
     "stripInternal": true,
     "skipLibCheck": true
   },
-  "files": [
-    "./index.ts"
-  ],
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "common",
+    "i18n"
   ]
 }

@@ -1,0 +1,13 @@
+{
+  "extends": "../../tsconfig-base.json",
+  "compilerOptions": {
+    "declarationDir": "../../i18n",
+    "outDir": "../../i18n",
+    "module": "esnext",
+    "target": "es5"
+  },
+  "files": [
+    "./index.ts",
+    "./i18n.ts"
+  ]
+}
